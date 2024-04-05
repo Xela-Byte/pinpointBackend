@@ -1,0 +1,94 @@
+Fri Apr 05 2024 11:35:03 GMT+0100 (West Africa Standard Time) Error: ValidationError: User validation failed: city: Path `city` is required., userName: Path `userName` is required.
+    at Document.invalidate (/home/xela/pinpoint_backend/node_modules/mongoose/lib/document.js:3285:32)
+    at /home/xela/pinpoint_backend/node_modules/mongoose/lib/document.js:3046:17
+    at /home/xela/pinpoint_backend/node_modules/mongoose/lib/schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Fri Apr 05 2024 11:37:23 GMT+0100 (West Africa Standard Time) Error: ValidationError: User validation failed: city: Path `city` is required., userName: Path `userName` is required.
+    at Document.invalidate (/home/xela/pinpoint_backend/node_modules/mongoose/lib/document.js:3285:32)
+    at /home/xela/pinpoint_backend/node_modules/mongoose/lib/document.js:3046:17
+    at /home/xela/pinpoint_backend/node_modules/mongoose/lib/schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+Fri Apr 05 2024 11:41:36 GMT+0100 (West Africa Standard Time) Error: ReferenceError: password is not defined
+    at loginUser (/home/xela/pinpoint_backend/controllers/user/index.js:212:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:01:18 GMT+0100 (West Africa Standard Time) Error: ReferenceError: userID is not defined
+    at initForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:336:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:02:34 GMT+0100 (West Africa Standard Time) Error: ReferenceError: res is not defined
+    at initForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:343:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:07:38 GMT+0100 (West Africa Standard Time) Error: Error: Invalid salt version: 10
+    at _hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:1280:19)
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:212:17)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:375:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:08:57 GMT+0100 (West Africa Standard Time) Error: Error: Invalid salt version: 8
+    at _hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:1280:19)
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:212:17)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:374:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:12:28 GMT+0100 (West Africa Standard Time) Error: Error: Illegal arguments: string, undefined
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:374:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:15:39 GMT+0100 (West Africa Standard Time) Error: Error: Illegal arguments: string, undefined
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:374:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:18:07 GMT+0100 (West Africa Standard Time) Error: Error: Invalid salt version: 8
+    at _hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:1280:19)
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:212:17)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:374:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:21:18 GMT+0100 (West Africa Standard Time) Error: Error: Invalid salt version: 8
+    at _hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:1280:19)
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:212:17)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:376:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:25:06 GMT+0100 (West Africa Standard Time) Error: Error: Illegal arguments: undefined, undefined
+    at _async (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:214:46)
+    at /home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:223:17
+    at new Promise (<anonymous>)
+    at bcrypt.hash (/home/xela/pinpoint_backend/node_modules/bcryptjs/dist/bcrypt.js:222:20)
+    at finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:374:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Apr 05 2024 12:27:24 GMT+0100 (West Africa Standard Time) Error: CastError: Cast to ObjectId failed for value "729411" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (/home/xela/pinpoint_backend/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/xela/pinpoint_backend/node_modules/mongoose/lib/schemaType.js:1236:12)
+    at SchemaType.castForQuery (/home/xela/pinpoint_backend/node_modules/mongoose/lib/schemaType.js:1653:17)
+    at cast (/home/xela/pinpoint_backend/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:4786:12)
+    at Query._castConditions (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:2199:10)
+    at model.Query._findOneAndUpdate (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:3280:8)
+    at model.Query.exec (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:4330:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:377:12)
+Fri Apr 05 2024 12:27:26 GMT+0100 (West Africa Standard Time) Error: CastError: Cast to ObjectId failed for value "729411" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (/home/xela/pinpoint_backend/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/xela/pinpoint_backend/node_modules/mongoose/lib/schemaType.js:1236:12)
+    at SchemaType.castForQuery (/home/xela/pinpoint_backend/node_modules/mongoose/lib/schemaType.js:1653:17)
+    at cast (/home/xela/pinpoint_backend/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:4786:12)
+    at Query._castConditions (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:2199:10)
+    at model.Query._findOneAndUpdate (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:3280:8)
+    at model.Query.exec (/home/xela/pinpoint_backend/node_modules/mongoose/lib/query.js:4330:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async finalizeForgotPassword (/home/xela/pinpoint_backend/controllers/user/index.js:377:12)
